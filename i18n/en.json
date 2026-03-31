@@ -1,0 +1,73 @@
+{
+  "chooseYourGrowth": "Choose Your Growth",
+  "chooseYourGrowthSubtitle": "Select a metaphor that represents your wellness journey",
+  "pomegranateTree": "Pomegranate Tree",
+  "pomegranateDesc": "Grow strong and bear fruit over time",
+  "flowerGarden": "Flower Garden",
+  "flowerGardenDesc": "Nurture many beautiful moments",
+  "grapevine": "Grapevine",
+  "grapevineDesc": "Connect and grow together",
+  "wovenCarpet": "Woven Carpet",
+  "wovenCarpetDesc": "Weave your wellness journey day by day",
+  "continue": "Continue",
+  "footerNote": "Your choice will be saved locally",
+
+  "welcomeTitle": "Welcome to Wellmate",
+  "welcomeSubtitle": "Your gentle companion for daily wellness and self-care",
+  "selectLanguage": "Select Your Language",
+  "selectLanguageSubtitle": "Choose the language you're most comfortable with",
+  "selectGoal": "Select Your Goal",
+  "selectGoalSubtitle": "What do you want to improve?",
+  "next": "Next",
+
+  "goodMorning": "Good morning",
+  "appName": "Wellmate",
+  "todaysProgress": "Today's Progress",
+  "dailyActions": "Daily Actions",
+  "dailyCheckin": "Daily Check-in",
+  "checkinSubtitle": "Take a moment for yourself",
+
+  "completed": "completed",
+  "of": "of",
+
+  "actionWater": "Drink water",
+  "actionWalk": "Walk indoors",
+  "actionSunlight": "Get sunlight",
+  "actionContact": "Contact friend/family",
+
+  "Msg1": "Today is a new beginning. Take it one gentle step at a time.",
+  "Msg2": "Your wellness journey matters. Be kind to yourself today.",
+  "Msg3": "Small actions create big changes. You're doing wonderfully.",
+  "Msg4": "Breathe deeply. You are exactly where you need to be.",
+  "Msg5": "Every moment is an opportunity for growth and peace",
+
+  "home": "Home",
+  "settings": "Settings",
+  "theme": "Theme",
+
+  "checkin": {
+    "title": "Daily Check-in",
+    "subtitle": "A moment for breathing and reflection",
+    "breathe": "Breathe in... breathe out...",
+    "ready": "Ready to start?",
+    "moodPrompt": "How are you feeling today?",
+    "complete": "Check-in Complete",
+    "returnHome": "Return Home",
+    "positiveMessages": [
+      "Take a moment for yourself. You matter.",
+      "Your awareness is a gift. Be kind to yourself today.",
+      "Every breath is a new beginning. You're doing great.",
+      "This moment of calm will stay with you throughout the day.",
+      "You are enough, just as you are. Keep going.",
+      "Small steps create big changes. You're on the right track.",
+      "Your wellness journey is unique and valuable. Honor it."
+    ],
+    "moods": {
+      "great": "Great",
+      "good": "Good",
+      "okay": "Okay",
+      "low": "Low",
+      "tough": "Tough"
+    }
+  }
+}

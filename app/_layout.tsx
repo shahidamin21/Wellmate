@@ -1,24 +1,32 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import { Stack } from "expo-router";
+import React, { createContext, useState } from "react";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { LanguageProvider } from "../context/LanguageProvider";
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
-
-export const unstable_settings = {
-  anchor: '(tabs)',
-};
+export const ThemeContext = createContext({
+  theme: "light",
+  toggleTheme: () => {},
+});
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <GestureHandlerRootView
+      style={{
+        flex: 1,
+        backgroundColor: theme === "light" ? "#fff" : "#121212",
+      }}
+    >
+      <SafeAreaProvider>
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+          <LanguageProvider>
+            <Stack screenOptions={{ headerShown: false }} />
+          </LanguageProvider>
+        </ThemeContext.Provider>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }

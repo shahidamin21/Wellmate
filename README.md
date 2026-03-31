@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+Wellmate – Daily Wellness App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Wellmate is a cross-platform (iOS & Android) mobile app built with Expo React Native. It helps users track their daily wellness, mental health, and productivity habits through simple daily check-ins, mood tracking, and guided activities. The app uses a warm, soothing color theme with soft oranges and creams to create a calm, friendly experience.
 
-## Get started
+Features
 
-1. Install dependencies
+- Daily check-in with breathing exercises and mood tracking
+- Positive reinforcement messages for wellness motivation
+- Language selection (Pashto, Persian, English)
+- Goal tracking and habit suggestions
+- Simple and intuitive interface
 
-   ```bash
+1. Installation
+   Follow these steps to run the Wellmate app locally:
+
+Clone the repository
+
+- git clone: https://github.com/shahidamin21/Wellmate.git
+- cd wellmate
+
+2. Install dependencies
    npm install
-   ```
 
-2. Start the app
+# or
 
-   ```bash
+yarn install
+
+3. Start Expo
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+# or
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+yarn start
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. Run on your device
 
-## Get a fresh project
+- Scan the QR code using the Expo Go app (iOS or Android)
+- Or run on an emulator/simulator
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Shahid Amin
