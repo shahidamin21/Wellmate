@@ -70,11 +70,6 @@ export default function HomeScreen() {
   const router = useRouter();
   const navigation = useNavigation();
 
-  const resetApp = async () => {
-    await AsyncStorage.clear();
-    router.replace("/language-selection");
-  };
-
   useEffect(() => {
     const initialize = async () => {
       const objectId = await AsyncStorage.getItem("wellmate_growth_object");
@@ -248,9 +243,6 @@ export default function HomeScreen() {
             style={styles.motivationalImage}
           />
         </View>
-        <TouchableOpacity onPress={resetApp}>
-          <Text>Reset App</Text>
-        </TouchableOpacity>
       </ScrollView>
     </SafeAreaView>
   );
